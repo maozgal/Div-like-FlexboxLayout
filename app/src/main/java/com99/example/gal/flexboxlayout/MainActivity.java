@@ -29,11 +29,11 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(layoutManager);
 
         final ArrayList<String> DivLikeContent = new ArrayList<>();
-        DivLikeContent.add("aa");
-        DivLikeContent.add("aaa");
-        DivLikeContent.add("aaaa");
-        DivLikeContent.add("aaaaa");
-        DivLikeContent.add("aaaaaaaaaaaaaaa");
+        DivLikeContent.add("Route");
+        DivLikeContent.add("No calls during the ride");
+        DivLikeContent.add("Smell");
+        DivLikeContent.add("Less talk");
+        DivLikeContent.add("Safety");
 
         final RecyclerView.Adapter adapter = new DivLikeAdapter(DivLikeContent);
 
